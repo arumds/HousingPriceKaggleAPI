@@ -17,7 +17,7 @@ app = FastAPI(
 )
 
 '''Load xgboost model pickle'''
-xgb_modelfile = open('/code/app/model/XGBoostRegressor_hpo.pkl',"rb")
+xgb_modelfile = open('/code/app/model/XGBoostRegressor_bayopt.pkl',"rb")
 xgb_model = pickle.load(xgb_modelfile)
 
 
